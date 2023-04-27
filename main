@@ -1,0 +1,12 @@
+import tkinter as tk 
+form=tk.Tk()
+form.title('tkinter ders 2')
+#form.title = başlığa istediğiniz ismi yazmayı sağlar
+label = tk.Label(form,text="python")
+#label == etiket   (Bir etiket atayarak onun içine istediğimizi yazıbiliyoruz)
+label.pack()
+#bg= arka plan rengi , fg = ön plan rengi ,font= yazı tipi ve boyutu 
+label2 = tk.Label(form,text="arka ve ön plan ayarlama ve yazı,boyut  tipi ayarlama")
+label2.pack()
+#her zaman mainloop yazılmalı
+form.mainloop()
