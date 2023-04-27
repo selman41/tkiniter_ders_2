@@ -8,5 +8,5 @@ label.pack()
 #bg= arka plan rengi , fg = ön plan rengi ,font= yazı tipi ve boyutu 
 label2 = tk.Label(form,text="arka ve ön plan ayarlama ve yazı,boyut  tipi ayarlama")
 label2.pack()
-#her zaman mainloop yazılmalı
+#mainloop ekranda durması için gerekli
 form.mainloop()
